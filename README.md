@@ -1,4 +1,22 @@
-# OmsFrontendAngular
+# OMS – Order Management System
+
+A modern Angular-based order management solution that covers the full process from **Quote → Order → Invoice**. OMS features a modular architecture, role-based access control (RBAC), and a clean UI built with **Angular Material** and **Tailwind CSS**.
+
+---
+
+### 🧰 Tech Stack
+- **Angular**
+- **Tailwind CSS**
+- **Angular Material**
+- (**Nest.js**) - (add here the repository link) 
+---
+
+### 🚀 Core Features
+- Customer & Item management  
+- Quote → Order → Invoice workflow  
+- Role-based permissions (Admin, Sales, Project Manager, Worker)  
+- KPI dashboard with charts  
+- Modern, scalable front-end architecture
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
 
