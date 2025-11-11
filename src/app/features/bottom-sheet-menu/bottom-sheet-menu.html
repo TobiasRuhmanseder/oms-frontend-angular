@@ -1,0 +1,29 @@
+<mat-nav-list>
+    <a href=""></a>
+    <!-- Requests -->
+    <a mat-list-item routerLink="/home/requests" (click)="closeBottomSheetMenu()">
+        <span matListItemTitle>Requests</span>
+        <span matListItemLine>Create or review incoming requests</span>
+    </a>
+
+    <!-- Quotes -->
+    <a mat-list-item routerLink="/home/quotes" routerLinkActive="!bg-blue-100 !text-blue-600 font-semibold"
+        (click)="closeBottomSheetMenu()">
+        <span matListItemTitle>Quotes</span>
+        <span matListItemLine>Prepare and manage quotations</span>
+    </a>
+
+    <!-- Orders -->
+    <a mat-list-item routerLink="home/orders" routerLinkActive="!bg-blue-100 !text-blue-600 font-semibold"
+        (click)="closeBottomSheetMenu()">
+        <span matListItemTitle>Orders</span>
+        <span matListItemLine>Track order status and progress</span>
+    </a>
+
+    <!-- Invoices -->
+    <a mat-list-item routerLink="home/invoices" routerLinkActive="!bg-blue-100 !text-blue-600 font-semibold"
+        (click)="closeBottomSheetMenu()">
+        <span matListItemTitle>Invoices</span>
+        <span matListItemLine>Issue and manage invoices</span>
+    </a>
+</mat-nav-list>
